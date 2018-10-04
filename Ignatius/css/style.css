@@ -1,0 +1,582 @@
+/**
+" A Property Of Brainz Tech Inc. All Rights Reserved"
+<!-- 
+*Author: Edwin Asare (Dr.Brainz)
+*Author URL: http://www.braintech.cf
+*Author Email: brainztech08@gmail.com
+*Author Email: info@brainztech.cf.com
+*Copyright(c) 2018 Brainz Tech Inc. All Rights Reserved
+*This is a Premium Web Hosting theme for your hosting company,you may edit it per your needs.
+*Contact the author or visit our website for more premium themes for your project.
+
+STYLE.CSS
+-These are the styles that make the theme look nice.
+-You can edit the styles per your needs.
+
+**Note: Show some love for our hardwork by remaining the footer credit which link back to our website.
+  Or you can use your own means to link back to website.
+  But note that footer credit must remain the same according to the license agreement.
+  Thanks.
+
+  NB: Please in this theme, we use our own pictures, texts, fonts & styles. You can add your own 
+      according to your needs.
+      Thanks.
+**
+-->
+**/
+
+body {
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'LobsterTwo', cursive;
+}
+p {
+
+}
+.navbar-toggler {
+	border-color: #eca308!important;
+	color: #eca308!important;
+	background-color: #eca308;
+}
+/*Home Section*/
+.home {
+	background: url(../images/main-background.jpg) /*linear-gradient(#8f68ce, #560cce)*/;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+     
+}
+.home-sub {
+	padding-bottom: 5rem;
+}
+.hr {
+	border-bottom: 1px solid rgba(0,0,0,.4);
+}
+.navbar-nav, .navbar-brand {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+.navbar-brand {
+	color: #fff!important;
+}
+
+.navbar-brand img {
+	padding-right: 1rem;
+}
+.nav-item .active {
+	background: linear-gradient(#ecb540, #ec8940)!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.6);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 0.8rem;
+    background: linear-gradient(#756096, #655382);
+    border-radius: 30px !important;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background: linear-gradient(#ecb540, #ec8940);
+}
+/*Home head*/
+.home-head {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	text-align: center;
+	margin-top: 3rem;
+}
+.home-head-img {
+	padding-bottom: 5rem;
+}
+.home-head-img img {
+	width: 130px;
+	height: 130px;
+	/*border-radius: 50%;
+	border: 5px solid #ecb540;*/
+}
+.home-head h1 {
+	font-size: 4rem;
+	word-spacing: 0.5rem;
+	color:  #ecb540!important;/*#ecb540, #ec8940*/
+}
+.home-head small {
+	font-size: 1.5rem;
+	margin-top: 2rem!important;
+	color: #555;
+	font-weight: 700;
+}
+.home-head p {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.home-head a {
+	background: #ecb540;
+	color: #fff;
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5rem;
+    /*transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;*/
+}
+.home-head a:hover {
+	text-decoration: none;
+	background: linear-gradient(#eca308, #fd720c);
+}
+
+/*About*/
+.about {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.icon-church, .icon-candles, .icon-cross, .icon-star {
+	 width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #6119d6;
+    text-align: center!important;
+}
+.icon-church:hover, .icon-candles:hover, .icon-cross:hover, .icon-star:hover {
+	background:  #fd720c;
+}
+
+.icon-church img {
+	width: 35%;
+	padding-top: 1.6rem;
+}
+
+.icon-candles, .icon-cross, .icon-star{
+	width: 50%;
+	padding-top: 1.6rem;
+}
+.about h2 {
+	font-size: 2rem;
+	color: #4a3173!important;
+}
+.about p {
+	font-size: 1rem;
+	font-weight: 700;
+	color: rgb(0, 0, 0, .6);
+}
+
+/*Pastors*/
+.pastors {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background: /*rgb(74, 49, 115)*/ url(../images/book.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+}
+.pastors h1{
+	text-align: center;
+	padding-bottom: 1rem;
+	font-size: 3rem;
+}
+.pastors p {
+	text-align: center;
+}
+.row-head {
+	background: rgba(0, 0, 0, 0.24);
+	margin-top: 3rem;
+	padding-bottom: 2rem;
+}
+.row-head small {
+	text-align: center;
+	padding-left: 2.5rem;
+
+}
+.row-head h3 {
+	font-size: 1rem;
+	padding-left: 2rem;
+}
+.row-img {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+.row-img img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.row-img img:hover {
+	filter: grayscale(1);
+    transition: 0.4s none;
+    transition-delay: 0.4s;
+}
+.pastors a {
+	background: #ecb540;
+    color: rgb(0, 0, 0,.6);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .90rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5rem;
+    margin-left: 28rem;
+    margin-top: 3rem;
+}
+.pastors a:hover {
+	content: "\ff178";
+	color: #fff;
+	text-decoration: none;
+	background: background: linear-gradient(#eca308, #fd720c);
+	border-color: #ec8940;
+	border: 2px solid #ec8940;
+}
+
+/* Up Coming Events */
+.events {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.events h2 {
+	text-align: center;
+	padding-bottom: 3rem;
+	font-size: 3.4285714286em;
+     color: #4a3173;
+}
+.arrows img {
+	border-radius: 30px;
+    border: 1px solid #aba6b3;
+    padding: 0.6rem 3rem;
+    display: inline-block;
+    margin: 0 10px 30px;
+}
+.arrows img:hover {
+	border-radius: 30px;
+    border: 2px solid #aba6b3;
+}
+.events-sub img {
+	width: 100%;
+	padding-bottom: 1rem;
+}
+.events-sub h3 > a {
+	font-size: 1rem;
+	color: #4a3173!important;
+}
+.events-sub h3 {
+	    margin: 0 0 5px;
+	    font-size: 1.2857142857em;
+}
+.events-sub h3 > a:hover {
+	text-decoration: none;
+}
+.fa {
+	padding-right: 0.3rem;
+}
+.events-sub span {
+	padding-right: 0.5rem;
+}
+.events-sub .a-button {
+	background: #ecb540;
+    color: rgb(0, 0, 0,.6);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+.events-sub .a-button:hover {
+	text-decoration: none;
+	color: #fff;
+	background: background: linear-gradient(#eca308, #fd720c);
+}
+
+/*Sermons*/
+.sermons {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background: url(../images/sermon-bg.jpg)/*url(https://images.unsplash.com/photo-1517256216430-e77743bbc3d8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8cf50086a2399675017585c7e94f4d02&auto=format&fit=crop&w=500&q=60)*/;  
+	
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+.sermons h1 {
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #fff;
+	padding-top: 2rem;
+}
+
+.sermon-list {
+	list-style: none;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #fff;
+}
+.sermon-list h3 {
+	font-size: 1rem;
+	color: #ecb540;
+}
+.sermon-list span {
+	padding-right: 1rem;
+}
+
+.sermon-link {
+	background: #ecb540;
+	color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5rem;
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+.sermon-link:hover {
+	text-decoration: none;
+	color: #fff;
+	background: background: linear-gradient(#eca308, #fd720c);
+	border-color: #ec8940;
+}
+.sermon-link-2 {
+	background: #ecb540;
+	color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.sermon-link-2:hover {
+	text-decoration: none;
+	color: #fff;
+	background: background: linear-gradient(#eca308, #fd720c);
+	border-color: #ec8940;
+}.sermon-head {
+	margin-left: 2rem;
+}
+/*Chuch Executives*/
+.church-executives {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.church-executives h1 {
+	text-align: center;
+	font-size: 3rem;
+	padding-bottom: 1rem;
+}
+.church-executives p {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.ex-row {
+	background: rgba(0, 0, 0, 0.24);
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.ex-img {
+	padding-top: 2rem;
+}
+.ex-img img {
+	width: 100%;
+}
+.ex-img img:hover {
+	transition: 0.2s none;
+	transition-delay: 0.5s;
+	filter: grayscale(1);
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+.church-executives h4 {
+	font-size: 1rem;
+	padding-top: 1rem;
+	text-align: center;
+}
+
+.ex-row i{
+	padding-left: 2.2rem;
+}
+
+/*Contact*/
+.contact {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background: url(../images/contact2-bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+}
+.contact h1 {
+	font-size: 3rem;
+	text-align: center;
+	padding-bottom: 1.5rem;
+}
+.contact p {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.contact-details {
+	margin-top: 2rem;
+}
+.contact-details span {
+	font-size: 1rem;
+	font-weight: 700;
+}
+.marker, .phone, .envelope {
+	font-size: 2rem!important;
+	padding-right: 1rem;
+	color: #ecb540;
+}
+.fa-phone, .fa-envelope {
+	padding-left: 1rem;
+}
+.contact-form {
+	padding-top: 3rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.message-sub {
+	line-height: 4.5rem!important;
+}
+.form-text {
+	color: #fff!important;
+}
+label {
+	font-size: 1rem;
+	font-weight: 700;
+	color: #ecb540;
+}
+.message-button {
+     background: #ecb540;
+	color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .99rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5rem;	
+    margin-left: 10rem;
+}
+.message-button:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*Footer*/
+.footer {
+	padding-top: 2rem;
+	background: #555;
+	padding-bottom: 2rem;
+	color: #fff;
+	background-attachment: scroll;
+	background-position: initial;
+	background-size: auto;
+}
+.copyright {
+	text-align: center;
+	padding-bottom: 1rem;
+}
+.socal-icon p {
+	font-weight: 600;
+	text-align: center;
+}
+.social-icon-lists {
+	
+	/*padding-right: 1rem;*/
+}
+.social-icon-lists a{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    border: 2px solid #ecb540 /*#1aafd0*/;
+    
+
+}
+.social-icon-lists .facebook:hover {
+	    background-color: #3b5998;
+}
+.social-icon-lists .twitter:hover {
+	    background-color: #55acee;
+}
+.social-icon-lists .youtube:hover {
+	background-color: #ff0000;
+}
+.social-icon-lists .whatsapp:hover {
+	background-color: green;
+}
