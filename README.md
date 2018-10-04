@@ -37,8 +37,8 @@ Read more here : https://brainztech.cf.
     
    iii.I want to remove brainztech.cf back link from footer? 
       We have plans for that per template and unlimited.
-	   Donate us $10 per template. If you want templates for multiple domains or bulk templates please contact info@brainztech.cf
-     brainztech08@gmail.com
+      Donate us $10 per template. If you want templates for multiple domains or bulk templates please contact info@brainztech.cf
+      or brainztech08@gmail.com
      
     iv.Important note
      *Our templates support all devices; Mobile phone, Tablet, Laptop & Destop.So you don't need any version or type for seperate device.
