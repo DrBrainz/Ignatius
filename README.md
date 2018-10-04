@@ -27,6 +27,7 @@ Read more here : https://brainztech.cf.
   #-- FREQUENTLY ASK QUESTIONS --
   
   i.Who are/is Brainz Tech Inc?
+  
   Brainz Tech Inc. is web development company that builds web templates for free and templates are cross device supported.
   Since our templates are free, you can use it for both commercial and non-commercial and kindly note to link back to Brainz Tech Inc.
   and its included at the footer bottom.
