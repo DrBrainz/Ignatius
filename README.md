@@ -32,7 +32,7 @@ Read more here : https://brainztech.cf.
   
   ii.I want to Help Brainz Tech Inc., How can I?
     You can help Brainz Tech Inc By
-    1. Donate Some $’s, Any Amount your wish
+    1. Donate Some $’s, Any Amount your wish 
     2. Contribute Design inventory like stock photos, Icons or PSD designs with full rights to Brainz Tech Inc.
     
    iii.I want to remove brainztech.cf back link from footer? 
